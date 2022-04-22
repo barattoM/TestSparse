@@ -1,6 +1,9 @@
 <?php
 
-$A=6;
-$carre=$A*$A;
+$A=3;
+$B=5;
+$C=$A;
+$A=$B;
+$B=$C;
 
-echo("Le carré de 6 est : ".$carre);
+echo("A=".$A." B=".$B);
